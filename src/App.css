@@ -1,0 +1,66 @@
+        @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
+        .App {
+            width: 40%;
+            margin: 5vh auto;
+            box-shadow: 0 30px 40px -14px rgba(0, 0, 0, 0.55);
+            font-family: "Raleway", sans-serif;
+            color: white;
+            border-radius: 10px;
+            background: linear-gradient(#302828, rgba(50, 50, 50, 0.8)), url(https://images.unsplash.com/photo-1581390114939-946f9a890a7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80) center/cover no-repeat;
+        }
+        
+        body {
+            background-color: #302828;
+        }
+        
+        #contact-list {
+            padding: 3vh 0 3vh 1%;
+        }
+        
+        #contact-list div {
+            margin: 0 auto;
+            text-align: center;
+            font-size: .7em;
+        }
+        
+        #celebCard {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 5vh;
+            margin: 0 auto;
+            text-align: center;
+            font-size: .7em;
+        }
+        
+        #celebCard img {
+            display: flex;
+            width: 40%;
+            margin: 0 auto;
+            align-items: center;
+            font-size: .7em;
+        }
+        
+        #contact-list div h3 {
+            color: white;
+            font-size: .9em;
+        }
+        
+        .btn {
+            display: flex;
+            font-size: 0.7em;
+            padding: 5px;
+            margin: 0 auto;
+            border-radius: 5px;
+            border: none;
+            color: rgb(33, 33, 33);
+            text-transform: uppercase;
+            outline: none;
+            background-color: rgba(232, 232, 232, 0.736);
+        }
+        
+        .delete-btn {
+            margin: 0 auto;
+            height: 30px;
+            max-width: 60%;
+            font-size: 0.6em;
+        }
