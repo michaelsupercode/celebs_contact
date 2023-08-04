@@ -64,3 +64,9 @@
             max-width: 60%;
             font-size: 0.6em;
         }
+
+        h6 {
+            margin: 5vh;
+            text-align: center;
+            color: white;
+            }
